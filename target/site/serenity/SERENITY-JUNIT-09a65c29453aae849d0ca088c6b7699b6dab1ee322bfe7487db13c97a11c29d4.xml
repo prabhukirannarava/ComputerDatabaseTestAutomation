@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a valid user, he/she should be able to edit,delete computer details" skipped="0" tests="2" time="14.47" timestamp="2018-04-25T09:58:01.633+02:00[Europe/Amsterdam]"><testcase name="Verify edit computer details funcationality"/><testcase name="Verify delete computer functionality"/></testsuite>

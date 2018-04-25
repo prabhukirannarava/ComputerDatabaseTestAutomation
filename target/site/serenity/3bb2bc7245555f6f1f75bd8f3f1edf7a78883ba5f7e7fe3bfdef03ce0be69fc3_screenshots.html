@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Computer Database - Automated Tests</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="5846b5a2d9ee295deefacf5bfa41524a369e26f536291c620358afb22a26904b.html">As A Vald User, He/She Should Be Able To&hellip;</a>
+                > <a
+                    href="3bb2bc7245555f6f1f75bd8f3f1edf7a78883ba5f7e7fe3bfdef03ce0be69fc3.html">Validate filtering functionality </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-04-2018 09:58</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As A Vald User, He/She Should Be Able To Filter The Computers List Successfuly </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="5846b5a2d9ee295deefacf5bfa41524a369e26f536291c620358afb22a26904b.html">She Should Be Able To Filter The Computers List Successfuly
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validate Filtering Functionality
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Computer database portal is open and atleast one computer details present on computer database portal<br>When Computer name is entered as "&lt;computerName&gt;"<br>And User clicks on fliterByName button<br>Then Filtering should "&lt;result&gt;" and home page should display "&lt;resultSet&gt;" list.</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_43897eec9513f12e7a080a576270e09d2fe1d50ccda6cae1a63772393be601c5.png" title="Validate filtering functionality #1: {computerName=AMSKL, result=Success, resultSet=AMSKL}" width="960"/>
+                <img src="scaled_98879bb1c4ad0ab2ec7089fa40ba6ec707d54fb76541e7eed4ada0a210b86199.png" title="Given Computer database portal is open and atleast one computer details present on computer database portal" width="960"/>
+                <img src="98879bb1c4ad0ab2ec7089fa40ba6ec707d54fb76541e7eed4ada0a210b86199.png" title="Launch" width="960"/>
+                <img src="98879bb1c4ad0ab2ec7089fa40ba6ec707d54fb76541e7eed4ada0a210b86199.png" title="There exists one computer" width="960"/>
+                <img src="scaled_d1dad038c9581fc11702e95ef67857d02ec89ca020ed353d7f743005ac62496a.png" title="When Computer name is entered as &quot;AMSKL&quot;" width="960"/>
+                <img src="scaled_3ce5e63145ee02f6e5e049e3beb100fd888b2e22532fe529ff68fa10f42548db.png" title="Enter filtering text: AMSKL" width="960"/>
+                <img src="43897eec9513f12e7a080a576270e09d2fe1d50ccda6cae1a63772393be601c5.png" title="And User clicks on fliterByName button" width="960"/>
+                <img src="43897eec9513f12e7a080a576270e09d2fe1d50ccda6cae1a63772393be601c5.png" title="Click on filter button" width="960"/>
+                <img src="43897eec9513f12e7a080a576270e09d2fe1d50ccda6cae1a63772393be601c5.png" title="Then Filtering should &quot;Success&quot; and home page should display &quot;AMSKL&quot; list." width="960"/>
+                <img src="43897eec9513f12e7a080a576270e09d2fe1d50ccda6cae1a63772393be601c5.png" title="Validate computer list: AMSKL: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Computer Database - Automated Tests</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="01a6af523ed74c35c27a860226760a47cef22d552a3b6b79d6c5b92285e979ac.html">As A Valid User, He/She Should Be Able T&hellip;</a>
+                > <a
+                    href="89a722492b721025cefc7f74974c9c832204962b279380c97ca4a992716b52d8.html">Validate add computer page by giving different inputs </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-04-2018 09:55</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As A Valid User, He/She Should Be Able To Add A Computer To Computer Database. </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="01a6af523ed74c35c27a860226760a47cef22d552a3b6b79d6c5b92285e979ac.html">She Should Be Able To Add A Computer To Computer Database.
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validate Add Computer Page By Giving Different Inputs
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Computer database portal is open<br>When User clicks on Add a new computer button<br>Then Add Computer page should be opened<br>When User fills in "&lt;ComputerName&gt;"<br>And Introduced Date is entered as "&lt;IntroducedDate&gt;"<br>And Discontinued date is entered as "&lt;DiscontinuedDate&gt;"<br>And Company name is selected as "&lt;CompanyName&gt;"<br>When User clicks on Create this computer Button<br>Then Create computer should "&lt;CreateResult&gt;" successful</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3a251c47db598ac50acc8fe27b4af20579fd766365879ed8ec8d5c89a526b54a.png" title="Validate add computer page by giving different inputs #1: {ComputerName=AMSKLpnarava123, IntroducedDate=2018-12-12, DiscontinuedDate=2017-10-01, CompanyName=IBM, CreateResult=Be}" width="960"/>
+                <img src="0227c76fa1c9f3bf7335235abb3d9bc36e9df35562912ad7aed67f1acbcdb42b.png" title="Given Computer database portal is open" width="960"/>
+                <img src="7a659d4128047ab795e72b404d80acd9d380bbafa0ea0b3ba23931188170e6b2.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="83a85e5ed56b1866bee54380895ae6aaa90e2f43143db7a4d6379c4f2683cceb.png" title="When User fills in &quot;AMSKLpnarava123&quot;" width="960"/>
+                <img src="7cd16136719f7f60b609070aec242b3b1e035d1d32a66a9566ba8c8485d25c2b.png" title="Fill in computer name: AMSKLpnarava123" width="960"/>
+                <img src="aa40a1bab1d2ab36ee31783067616a9e1efee631cb771c4437dc291d6d391179.png" title="And Introduced Date is entered as &quot;2018-12-12&quot;" width="960"/>
+                <img src="10c7cd68c42f9c18b48e618af342a51a08fe7aff39774b2dd2f8c35e3672bedf.png" title="Fill in introduced date: 2018-12-12" width="960"/>
+                <img src="c4462cb8c44af816d330eb6070715f6ab0b0c185770f5e76b7f10eea0f3d5280.png" title="And Discontinued date is entered as &quot;2017-10-01&quot;" width="960"/>
+                <img src="32e545c693f0172b84b6efbb0b95cc33ccbe651067aec560249d79a5ee79a305.png" title="Fill in discontinued date: 2017-10-01" width="960"/>
+                <img src="3017f1b8c7a311a970efc15bdfa005e3151e9418f681c30b68903f254d8ade50.png" title="And Company name is selected as &quot;IBM&quot;" width="960"/>
+                <img src="3017f1b8c7a311a970efc15bdfa005e3151e9418f681c30b68903f254d8ade50.png" title="Select company from drop down: IBM" width="960"/>
+                <img src="3a251c47db598ac50acc8fe27b4af20579fd766365879ed8ec8d5c89a526b54a.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="3a251c47db598ac50acc8fe27b4af20579fd766365879ed8ec8d5c89a526b54a.png" title="Click on create computer btn" width="960"/>
+                <img src="3a251c47db598ac50acc8fe27b4af20579fd766365879ed8ec8d5c89a526b54a.png" title="Then Create computer should &quot;Be&quot; successful" width="960"/>
+                <img src="3a251c47db598ac50acc8fe27b4af20579fd766365879ed8ec8d5c89a526b54a.png" title="Is addition operation successful: has been created" width="960"/>
+                <img src="69b400f977dd67cafdf86ca494e18bf749f74fa517d20c5d890ca4cb1a2bf1d4.png" title="Validate add computer page by giving different inputs #2: {ComputerName=AMSKLpnarava321, IntroducedDate=, DiscontinuedDate=2017-10-01, CompanyName=Xerox, CreateResult=Be}" width="960"/>
+                <img src="eb12fe6abb6fd354e7d90fe6c26ff53b16b730e7c2fcefa9662666ab4db0125b.png" title="Given Computer database portal is open" width="960"/>
+                <img src="eb12fe6abb6fd354e7d90fe6c26ff53b16b730e7c2fcefa9662666ab4db0125b.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="efbafe7e15671af147d328d035a2ccea4e3f7996d1e5c2175b60617e5a9aebc8.png" title="When User fills in &quot;AMSKLpnarava321&quot;" width="960"/>
+                <img src="409ff9fda24f4e11fde3898c3bdd26a1155c601d7a7a8adee80a6088fc10f6f7.png" title="Fill in computer name: AMSKLpnarava321" width="960"/>
+                <img src="cf3291984432659c93c53d59f4bc5febd4a187d0c7b76c77a5d09944a8735c17.png" title="And Introduced Date is entered as &quot;&quot;" width="960"/>
+                <img src="e66ab3ae0c95cf680f3b167a43f62a15bffb39405d6953e0d7e49552ba6bd1f9.png" title="Fill in introduced date: " width="960"/>
+                <img src="94ab0747cc6258f0f3ccb28437d648e91aea3e50cf448fe07cd627d72aabe75d.png" title="And Discontinued date is entered as &quot;2017-10-01&quot;" width="960"/>
+                <img src="1d3002ff7a1d7c6b1e33a5844fd444ac54fa24da8ba7f14c743d17a2571019a6.png" title="Fill in discontinued date: 2017-10-01" width="960"/>
+                <img src="facc1a8a201f71116a7e4f5522c5a687526a970018fa213d1cb478129b558372.png" title="And Company name is selected as &quot;Xerox&quot;" width="960"/>
+                <img src="facc1a8a201f71116a7e4f5522c5a687526a970018fa213d1cb478129b558372.png" title="Select company from drop down: Xerox" width="960"/>
+                <img src="69b400f977dd67cafdf86ca494e18bf749f74fa517d20c5d890ca4cb1a2bf1d4.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="69b400f977dd67cafdf86ca494e18bf749f74fa517d20c5d890ca4cb1a2bf1d4.png" title="Click on create computer btn" width="960"/>
+                <img src="69b400f977dd67cafdf86ca494e18bf749f74fa517d20c5d890ca4cb1a2bf1d4.png" title="Then Create computer should &quot;Be&quot; successful" width="960"/>
+                <img src="69b400f977dd67cafdf86ca494e18bf749f74fa517d20c5d890ca4cb1a2bf1d4.png" title="Is addition operation successful: has been created" width="960"/>
+                <img src="e927bd9ab497d6a00e89ddd3782505db672c0137807e333eebaf0854e5c2e403.png" title="Validate add computer page by giving different inputs #3: {ComputerName=AMSKLpnarava456, IntroducedDate=2015-03-04, DiscontinuedDate=, CompanyName=Xerox, CreateResult=Be}" width="960"/>
+                <img src="0d63acf47c99bc63603d46d63bc7ffd61a1a0c121726dfea818c8a60d8b4242a.png" title="Given Computer database portal is open" width="960"/>
+                <img src="0d63acf47c99bc63603d46d63bc7ffd61a1a0c121726dfea818c8a60d8b4242a.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="a4ae5b584663ef2d8ebfd9c2ee04995c482928d773c26a30dfabc7363c450411.png" title="When User fills in &quot;AMSKLpnarava456&quot;" width="960"/>
+                <img src="15932267b8432ab7bcc6b558fb340d9c0bcaaa068dbf5fa398a14d92fc987d4c.png" title="Fill in computer name: AMSKLpnarava456" width="960"/>
+                <img src="9870cce2a29b18de034d0020d54990d2ace520d386bf3adcc5d9e1e0d8406747.png" title="And Introduced Date is entered as &quot;2015-03-04&quot;" width="960"/>
+                <img src="9c65642d65bfc4cce168fa7c11a67fb0043d09d41d4228be83d39da05faf5478.png" title="Fill in introduced date: 2015-03-04" width="960"/>
+                <img src="0aad7a799e122ccd73e2b325e7145fb87eded51ac3f394ee12d3417d17d0b4ca.png" title="And Discontinued date is entered as &quot;&quot;" width="960"/>
+                <img src="78876301cc443cb520cd72fdfb661ffb2dc6380b99063bac3ff21dc27771247c.png" title="Fill in discontinued date: " width="960"/>
+                <img src="8f22bc9c97a89adf6e974ecacb508e89897bd5f490afca67da117acdc439b596.png" title="And Company name is selected as &quot;Xerox&quot;" width="960"/>
+                <img src="8f22bc9c97a89adf6e974ecacb508e89897bd5f490afca67da117acdc439b596.png" title="Select company from drop down: Xerox" width="960"/>
+                <img src="e927bd9ab497d6a00e89ddd3782505db672c0137807e333eebaf0854e5c2e403.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="b7b84880f1d0a1e2e1e6185a3810a2667e3c54c899a863c81d1fc08690bf02fd.png" title="Click on create computer btn" width="960"/>
+                <img src="e927bd9ab497d6a00e89ddd3782505db672c0137807e333eebaf0854e5c2e403.png" title="Then Create computer should &quot;Be&quot; successful" width="960"/>
+                <img src="e927bd9ab497d6a00e89ddd3782505db672c0137807e333eebaf0854e5c2e403.png" title="Is addition operation successful: has been created" width="960"/>
+                <img src="8da266207484175a0b5d5b5784bcc2e61df05526f44b6ba27ebff71cefbe3ac1.png" title="Validate add computer page by giving different inputs #4: {ComputerName=Bahubali, IntroducedDate=2015-03-04, DiscontinuedDate=2017-10-01, CompanyName=-- Choose a company --, CreateResult=Be}" width="960"/>
+                <img src="7a2b836e823232a967729e9c212264309fc3f86384354e7fb5ff6ad90d0388cf.png" title="Given Computer database portal is open" width="960"/>
+                <img src="7a2b836e823232a967729e9c212264309fc3f86384354e7fb5ff6ad90d0388cf.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="5e34b7383d85d2146dac7d829026bd50e2903a408251bcfc17eb9a5d89b57c10.png" title="When User fills in &quot;Bahubali&quot;" width="960"/>
+                <img src="4b90596dfbb9deae14fa71db8e09378c903e83e630d573bcfea0417e28ac20ef.png" title="Fill in computer name: Bahubali" width="960"/>
+                <img src="1a47efaf4e8e9ab63fcdd1e5636f0f3ec2e1c833ee4bc100a0c4c6824b52a52d.png" title="And Introduced Date is entered as &quot;2015-03-04&quot;" width="960"/>
+                <img src="c39d89bfce724ae988b018efd322f26aaff8bfd12cbed539a257e23b391d2c7a.png" title="Fill in introduced date: 2015-03-04" width="960"/>
+                <img src="ff89c8e94274cd4204555274c582f1b8e965af7080f48991c34233a33ca070e4.png" title="And Discontinued date is entered as &quot;2017-10-01&quot;" width="960"/>
+                <img src="723110099331993ddf627e32ae7c0970b8348fdf232ccc8f467cc766bcd6b203.png" title="Fill in discontinued date: 2017-10-01" width="960"/>
+                <img src="ee107abb6fafa7a3771765efaf3173ab982c00e96d499fa0c1a79d30eaffca63.png" title="And Company name is selected as &quot;-- Choose a company --&quot;" width="960"/>
+                <img src="ee107abb6fafa7a3771765efaf3173ab982c00e96d499fa0c1a79d30eaffca63.png" title="Select company from drop down: -- Choose a company --" width="960"/>
+                <img src="8da266207484175a0b5d5b5784bcc2e61df05526f44b6ba27ebff71cefbe3ac1.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="249d955a74aeec76e89694499f314157fc79ebe79b8960eb50cbaef6029fe71f.png" title="Click on create computer btn" width="960"/>
+                <img src="8da266207484175a0b5d5b5784bcc2e61df05526f44b6ba27ebff71cefbe3ac1.png" title="Then Create computer should &quot;Be&quot; successful" width="960"/>
+                <img src="8da266207484175a0b5d5b5784bcc2e61df05526f44b6ba27ebff71cefbe3ac1.png" title="Is addition operation successful: has been created" width="960"/>
+                <img src="5c11481ba1db2faec84702f532609759f8a0701840a9bfeaee73b0c423e447e9.png" title="Validate add computer page by giving different inputs #5: {ComputerName=Mac45321, IntroducedDate=13-12-10, DiscontinuedDate=22-10-01, CompanyName=Xerox, CreateResult=Be}" width="960"/>
+                <img src="028ddb618bded0c52b67f08ecc18e3b1dba3346346b5bce7fc78087064985a7a.png" title="Given Computer database portal is open" width="960"/>
+                <img src="028ddb618bded0c52b67f08ecc18e3b1dba3346346b5bce7fc78087064985a7a.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="aaf5b77abfce390142d197ef8ea054dca9171c217a56d95ddfd9da8c9325cacb.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="38cebecf0d1f5343ea013764d0ba298386f1b7bb7bf297898dbe5106ba930864.png" title="When User fills in &quot;Mac45321&quot;" width="960"/>
+                <img src="f3948a1be3fd45d7a4f201c8445f04afead74e2187e0a5cb1f1034e1d68e5520.png" title="Fill in computer name: Mac45321" width="960"/>
+                <img src="2b18e54d758640b5fb9f307205bd2c58b20c04d0c5feabf632746456a6d242dd.png" title="And Introduced Date is entered as &quot;13-12-10&quot;" width="960"/>
+                <img src="24b51a0f400867d02b50562a7a1b13cb6c3fa417f9a6a25cb12614c6138ecaeb.png" title="Fill in introduced date: 13-12-10" width="960"/>
+                <img src="b211a4e99dc0bd34192b0509f78b94c7426c61bd45df51189adccc59e85e3db3.png" title="And Discontinued date is entered as &quot;22-10-01&quot;" width="960"/>
+                <img src="16f4954bf163d48897a07d63afc76484bdb803bb25ff6b7163d760f2553819c2.png" title="Fill in discontinued date: 22-10-01" width="960"/>
+                <img src="d3f626a13485694558939cf2c07f70f48f079578b506909e4b96ca8d35e6b935.png" title="And Company name is selected as &quot;Xerox&quot;" width="960"/>
+                <img src="d3f626a13485694558939cf2c07f70f48f079578b506909e4b96ca8d35e6b935.png" title="Select company from drop down: Xerox" width="960"/>
+                <img src="5c11481ba1db2faec84702f532609759f8a0701840a9bfeaee73b0c423e447e9.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="3789d1a9130891d6e971c43396781e0d77f98e6599f26240771d3e9a70fc47a6.png" title="Click on create computer btn" width="960"/>
+                <img src="5c11481ba1db2faec84702f532609759f8a0701840a9bfeaee73b0c423e447e9.png" title="Then Create computer should &quot;Be&quot; successful" width="960"/>
+                <img src="5c11481ba1db2faec84702f532609759f8a0701840a9bfeaee73b0c423e447e9.png" title="Is addition operation successful: has been created" width="960"/>
+                <img src="54bed826f522a0619343578ca8bc0b0395e5642ba83fcf30e5d8f6ceabf9b3cc.png" title="Validate add computer page by giving different inputs #6: {ComputerName=, IntroducedDate=2013-12-10, DiscontinuedDate=2017-10-01, CompanyName=RCA, CreateResult=Not be}" width="960"/>
+                <img src="54562711869384ba9a8cb5fb7e460dceb6cf5c707d84f7669ec2be203f7c3175.png" title="Given Computer database portal is open" width="960"/>
+                <img src="54562711869384ba9a8cb5fb7e460dceb6cf5c707d84f7669ec2be203f7c3175.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="b3455e84c0642e46c70271841c1a611cc7966034ba42db91a01692b9608ec74e.png" title="When User fills in &quot;&quot;" width="960"/>
+                <img src="6a379788e6fb78cce0ca401d16bd5c7a319209a74a735d7d7944f4c4e0d8b8f6.png" title="Fill in computer name: " width="960"/>
+                <img src="74462008252142dad23805dc5d706652a8cf7be5f706609c939a80c8fb4c394a.png" title="And Introduced Date is entered as &quot;2013-12-10&quot;" width="960"/>
+                <img src="202ed147614df1457e6fa47df5d4b0fc2b32105574f155e4158d296fa95fb8ea.png" title="Fill in introduced date: 2013-12-10" width="960"/>
+                <img src="23c6e7674cd6b825a96a6fbeef254a8ddae98dfb94c97b5b8093ef05836a5e97.png" title="And Discontinued date is entered as &quot;2017-10-01&quot;" width="960"/>
+                <img src="c92bafa32c7c282059dc97e91e7ab342c0057f50ba0195be3acd6bffea9e959c.png" title="Fill in discontinued date: 2017-10-01" width="960"/>
+                <img src="6843b7e777a256176be3962be31f4e72ace56ebb4fd7ff73d134e525274a0472.png" title="And Company name is selected as &quot;RCA&quot;" width="960"/>
+                <img src="6843b7e777a256176be3962be31f4e72ace56ebb4fd7ff73d134e525274a0472.png" title="Select company from drop down: RCA" width="960"/>
+                <img src="54bed826f522a0619343578ca8bc0b0395e5642ba83fcf30e5d8f6ceabf9b3cc.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="54bed826f522a0619343578ca8bc0b0395e5642ba83fcf30e5d8f6ceabf9b3cc.png" title="Click on create computer btn" width="960"/>
+                <img src="54bed826f522a0619343578ca8bc0b0395e5642ba83fcf30e5d8f6ceabf9b3cc.png" title="Then Create computer should &quot;Not be&quot; successful" width="960"/>
+                <img src="54bed826f522a0619343578ca8bc0b0395e5642ba83fcf30e5d8f6ceabf9b3cc.png" title="Is addition operation successful: has been created" width="960"/>
+                <img src="391fcb7049673962370575140a5bb05aa96ab41f3f4bf8e11e1df746fbc48484.png" title="Validate add computer page by giving different inputs #7: {ComputerName=Windows123, IntroducedDate=2013-12-10, DiscontinuedDate=daskfdfj, CompanyName=RCA, CreateResult=Not be}" width="960"/>
+                <img src="54562711869384ba9a8cb5fb7e460dceb6cf5c707d84f7669ec2be203f7c3175.png" title="Given Computer database portal is open" width="960"/>
+                <img src="54562711869384ba9a8cb5fb7e460dceb6cf5c707d84f7669ec2be203f7c3175.png" title="Launch" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="When User clicks on Add a new computer button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Click add button" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Then Add Computer page should be opened" width="960"/>
+                <img src="cc9f6ddf100196c83111f697fdd6d0c5030c0983a537ef9cc80177e4b20c6123.png" title="Is add computer page opened" width="960"/>
+                <img src="dff8f56166814dd247752e8ffe8422f86e2e74cd1c5bd301ce4f6e040149322c.png" title="When User fills in &quot;Windows123&quot;" width="960"/>
+                <img src="0cb0498a926c876f7402ffdea6e409ab4c94cafe282cc56df36e949878c2b081.png" title="Fill in computer name: Windows123" width="960"/>
+                <img src="d5c7fb29fb562df7ae171c123f1d59151c117c166ed18840f038a4a582edbbc8.png" title="And Introduced Date is entered as &quot;2013-12-10&quot;" width="960"/>
+                <img src="3953bcc2cf3197f021195337f8151af2fe6db0fa97aeb0953fc3ecacb2965323.png" title="Fill in introduced date: 2013-12-10" width="960"/>
+                <img src="9e990b4d14bdcf15ea97148c5037b428ffd260d7623d9752cc002ca7ddef405c.png" title="And Discontinued date is entered as &quot;daskfdfj&quot;" width="960"/>
+                <img src="60a675e7a8d8d8f1bed7ca6cedf1906ec8af42915bf30891641cb0deba7ed778.png" title="Fill in discontinued date: daskfdfj" width="960"/>
+                <img src="cf09211aefbdf9ca51f2b818a2c02796fe22bc06c9ec8577662bb6ac0b51e4af.png" title="And Company name is selected as &quot;RCA&quot;" width="960"/>
+                <img src="cf09211aefbdf9ca51f2b818a2c02796fe22bc06c9ec8577662bb6ac0b51e4af.png" title="Select company from drop down: RCA" width="960"/>
+                <img src="391fcb7049673962370575140a5bb05aa96ab41f3f4bf8e11e1df746fbc48484.png" title="When User clicks on Create this computer Button" width="960"/>
+                <img src="391fcb7049673962370575140a5bb05aa96ab41f3f4bf8e11e1df746fbc48484.png" title="Click on create computer btn" width="960"/>
+                <img src="391fcb7049673962370575140a5bb05aa96ab41f3f4bf8e11e1df746fbc48484.png" title="Then Create computer should &quot;Not be&quot; successful" width="960"/>
+                <img src="391fcb7049673962370575140a5bb05aa96ab41f3f4bf8e11e1df746fbc48484.png" title="Is addition operation successful: has been created: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>

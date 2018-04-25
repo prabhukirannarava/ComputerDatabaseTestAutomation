@@ -1,0 +1,10 @@
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/pageobjects/HomePage.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/stepdefinitions/HomePageStepDefinitions.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/stepdefinitions/AddComputerPageStepDefinitions.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/pageactions/AddComputerPageActions.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/runner/RunFeaturesTest.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/pageactions/HomePageActions.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/pageactions/EditComputerPageActions.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/pageobjects/EditComputerPage.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/pageobjects/AddComputerPage.java
+/Users/pnarava/repos/ComputerDatabaseWebAutomation/src/test/java/com/computerdatabase/webautomation/stepdefinitions/EditComputerPageStepDefinitions.java

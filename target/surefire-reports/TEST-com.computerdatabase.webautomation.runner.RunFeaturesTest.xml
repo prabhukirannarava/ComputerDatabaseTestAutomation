@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="85" failures="0" name="com.computerdatabase.webautomation.runner.RunFeaturesTest" time="11.4" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/pnarava/repos/ComputerDatabaseWebAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/pnarava/repos/ComputerDatabaseWebAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/sq/mv__0s1j0lj997zzw1p1crkm0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.2/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pnarava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.2/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.2/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/pnarava"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="pnarava"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.2/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/Users/pnarava/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.2/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="Given Computer database portal is open" time="0.001"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="When User fills in &quot;AMSKLpnarava123&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="And Introduced Date is entered as &quot;2018-12-12&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="And Discontinued date is entered as &quot;2017-10-01&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="And Company name is selected as &quot;IBM&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="Then Create computer should &quot;Be&quot; successful" time="0"/>
+  <testcase classname="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" name="| AMSKLpnarava123 | 2018-12-12 | 2017-10-01 | IBM | Be |" time="0.801"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="Given Computer database portal is open" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="When User fills in &quot;AMSKLpnarava321&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="And Introduced Date is entered as &quot;&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="And Discontinued date is entered as &quot;2017-10-01&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="And Company name is selected as &quot;Xerox&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="Then Create computer should &quot;Be&quot; successful" time="0"/>
+  <testcase classname="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" name="| AMSKLpnarava321 |  | 2017-10-01 | Xerox | Be |" time="0.798"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="Given Computer database portal is open" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="When User fills in &quot;AMSKLpnarava456&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="And Introduced Date is entered as &quot;2015-03-04&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="And Discontinued date is entered as &quot;&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="And Company name is selected as &quot;Xerox&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="Then Create computer should &quot;Be&quot; successful" time="0"/>
+  <testcase classname="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" name="| AMSKLpnarava456 | 2015-03-04 |  | Xerox | Be |" time="0.797"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="Given Computer database portal is open" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="When User fills in &quot;Bahubali&quot;" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="And Introduced Date is entered as &quot;2015-03-04&quot;" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="And Discontinued date is entered as &quot;2017-10-01&quot;" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="And Company name is selected as &quot;-- Choose a company --&quot;" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="Then Create computer should &quot;Be&quot; successful" time="0"/>
+  <testcase classname="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" name="| Bahubali | 2015-03-04 | 2017-10-01 | -- Choose a company -- | Be |" time="0.797"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="Given Computer database portal is open" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="When User fills in &quot;Mac45321&quot;" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="And Introduced Date is entered as &quot;13-12-10&quot;" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="And Discontinued date is entered as &quot;22-10-01&quot;" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="And Company name is selected as &quot;Xerox&quot;" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="Then Create computer should &quot;Be&quot; successful" time="0"/>
+  <testcase classname="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" name="| Mac45321 | 13-12-10 | 22-10-01 | Xerox | Be |" time="0.793"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="Given Computer database portal is open" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="When User fills in &quot;&quot;" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="And Introduced Date is entered as &quot;2013-12-10&quot;" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="And Discontinued date is entered as &quot;2017-10-01&quot;" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="And Company name is selected as &quot;RCA&quot;" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="Then Create computer should &quot;Not be&quot; successful" time="0"/>
+  <testcase classname="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" name="|  | 2013-12-10 | 2017-10-01 | RCA | Not be |" time="0.761"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="Given Computer database portal is open" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="When User clicks on Add a new computer button" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="Then Add Computer page should be opened" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="When User fills in &quot;Windows123&quot;" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="And Introduced Date is entered as &quot;2013-12-10&quot;" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="And Discontinued date is entered as &quot;daskfdfj&quot;" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="And Company name is selected as &quot;RCA&quot;" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="When User clicks on Create this computer Button" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="Then Create computer should &quot;Not be&quot; successful" time="0"/>
+  <testcase classname="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" name="| Windows123 | 2013-12-10 | daskfdfj | RCA | Not be |" time="2.159"/>
+  <testcase classname="| ACE | 2020-12-12 | 2027-10-01 | Xerox |" name="Given Computer database portal is open and atleast one computer details present on computer database portal" time="0"/>
+  <testcase classname="| ACE | 2020-12-12 | 2027-10-01 | Xerox |" name="When user clicks on a &quot;ACE&quot;" time="0"/>
+  <testcase classname="| ACE | 2020-12-12 | 2027-10-01 | Xerox |" name="And &quot;2020-12-12&quot;,&quot;2027-10-01&quot;, &quot;Xerox&quot;, are edited" time="0"/>
+  <testcase classname="| ACE | 2020-12-12 | 2027-10-01 | Xerox |" name="Then the details of that computer should be updated" time="0"/>
+  <testcase classname="| ACE | 2020-12-12 | 2027-10-01 | Xerox |" name="| ACE | 2020-12-12 | 2027-10-01 | Xerox |" time="1.532"/>
+  <testcase classname="| AMSKLpnarava123 |" name="Given Computer database portal is open and atleast one computer details present on computer database portal" time="0"/>
+  <testcase classname="| AMSKLpnarava123 |" name="When user clicks on a &quot;AMSKLpnarava123&quot;" time="0"/>
+  <testcase classname="| AMSKLpnarava123 |" name="And user clicks on delete button" time="0"/>
+  <testcase classname="| AMSKLpnarava123 |" name="Then deletion should be successful and home page is shown" time="0"/>
+  <testcase classname="| AMSKLpnarava123 |" name="| AMSKLpnarava123 |" time="1.479"/>
+  <testcase classname="| AMSKL | Success | AMSKL |" name="Given Computer database portal is open and atleast one computer details present on computer database portal" time="0"/>
+  <testcase classname="| AMSKL | Success | AMSKL |" name="When Computer name is entered as &quot;AMSKL&quot;" time="0"/>
+  <testcase classname="| AMSKL | Success | AMSKL |" name="And User clicks on fliterByName button" time="0"/>
+  <testcase classname="| AMSKL | Success | AMSKL |" name="Then Filtering should &quot;Success&quot; and home page should display &quot;AMSKL&quot; list." time="0"/>
+  <testcase classname="| AMSKL | Success | AMSKL |" name="| AMSKL | Success | AMSKL |" time="1.482"/>
+</testsuite>
